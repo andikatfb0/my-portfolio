@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .btn-primary { @apply inline-flex items-center rounded-xl bg-brand-600 px-4 py-2 text-white font-medium shadow hover:bg-brand-500 transition; }
+.card { @apply rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition bg-white; }
+.pill { @apply inline-flex items-center rounded-full border px-3 py-1 text-xs font-medium; } */
+.btn-primary { @apply inline-flex items-center rounded-xl bg-brand-600 px-5 py-2.5 text-white font-medium shadow hover:bg-brand-500 transition; }
+.card { @apply rounded-3xl border border-slate-200 bg-white shadow-card; }
+.pill { @apply inline-flex items-center rounded-full border px-3 py-1 text-xs font-medium text-slate-600; }
