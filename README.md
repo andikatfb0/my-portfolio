@@ -16,7 +16,7 @@ Create PR in `is-a-dev/register` with:
 `domains/andikakamiswara.json`
 ```json
 {
-  "owner": { "username": "andikatfb0", "email": "EMAIL_KAMU" },
+  "owner": { "username": "andikatfb0", "email": "andikatfb0@gmail.com" },
   "records": { "CNAME": "andikatfb0.github.io" }
 }
 ```

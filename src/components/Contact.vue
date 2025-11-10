@@ -1,22 +1,47 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const email = "andikatfb0@gmail.com"
+</script>
+
 <template>
   <section id="contact" class="space-y-6">
-    <h2 class="text-2xl font-bold">Contact</h2>
-    <div class="card p-6 grid md:grid-cols-2 gap-6">
-      <div>
-        <p class="text-slate-700">Yuk diskusi project kamu. Fast response Senin–Jumat.</p>
-        <ul class="mt-3 text-sm text-slate-700 space-y-1">
-          <li>Email: <a class="text-brand-600 underline" href="mailto:hello@andikakamiswara.dev">hello@andikakamiswara.dev</a></li>
-          <li>GitHub: <a class="text-brand-600 underline" href="https://github.com/andikatfb0" target="_blank">@andikatfb0</a></li>
-          <li>WhatsApp: <span class="font-medium">0859-4728-2915</span></li>
-        </ul>
+    <h2 class="text-2xl font-bold">Get in Touch</h2>
+
+    <div class="card p-8 space-y-5 text-center">
+      <p class="text-muted max-w-xl mx-auto">
+        Ada pertanyaan, ingin diskusi project, atau butuh bantuan teknis?
+        Silakan hubungi gue. Dengan senang hati gue bantu jelasin dan brainstorm bareng.
+      </p>
+
+      <a
+        class="btn-primary inline-flex items-center justify-center gap-2 mx-auto"
+        :href="`mailto:${email}`"
+      >
+        ✉️ Send me an email
+      </a>
+
+      <div class="pt-4 text-sm text-muted">
+        atau kunjungi:
       </div>
-      <form class="space-y-3">
-        <input class="w-full border rounded-xl px-4 py-2" placeholder="Your name" />
-        <input class="w-full border rounded-xl px-4 py-2" placeholder="Email" />
-        <textarea rows="4" class="w-full border rounded-xl px-4 py-2" placeholder="Project details"></textarea>
-        <button type="button" class="btn-primary">Send</button>
-      </form>
+
+      <div class="flex justify-center gap-4 text-sm">
+        <a
+          href="https://github.com/andikatfb0"
+          target="_blank"
+          rel="noopener"
+          class="underline hover:text-brand-600"
+        >
+          GitHub
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/andika-kamiswara-710773109/"
+          target="_blank"
+          rel="noopener"
+          class="underline hover:text-brand-600"
+        >
+          LinkedIn
+        </a>
+      </div>
     </div>
   </section>
 </template>

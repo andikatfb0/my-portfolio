@@ -21,7 +21,9 @@ const jobs = [
 
 <template>
   <section id="experience" class="space-y-6">
-    <h2 class="text-2xl font-bold">Experience</h2>
+    <div class="text-center">
+      <h2 class="text-2xl md:text-3xl font-bold mt-1">Experience</h2>
+    </div>
     <div class="relative pl-6">
       <div class="absolute left-3 top-0 bottom-0 w-px bg-slate-200"></div>
       <article v-for="j in jobs" :key="j.company" class="relative mb-8">

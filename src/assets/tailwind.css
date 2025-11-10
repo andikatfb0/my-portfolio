@@ -2,9 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .btn-primary { @apply inline-flex items-center rounded-xl bg-brand-600 px-4 py-2 text-white font-medium shadow hover:bg-brand-500 transition; }
-.card { @apply rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition bg-white; }
-.pill { @apply inline-flex items-center rounded-full border px-3 py-1 text-xs font-medium; } */
-.btn-primary { @apply inline-flex items-center rounded-xl bg-brand-600 px-5 py-2.5 text-white font-medium shadow hover:bg-brand-500 transition; }
-.card { @apply rounded-3xl border border-slate-200 bg-white shadow-card; }
-.pill { @apply inline-flex items-center rounded-full border px-3 py-1 text-xs font-medium text-slate-600; }
+:root {
+  --surface: 248 250 252;
+  --card: 255 255 255;
+  --border: 226 232 240;
+  --foreground: 15 23 42;
+  --muted: 100 116 139;
+}
+.dark {
+  --surface: 2 6 23;
+  --card: 15 23 42;
+  --border: 51 65 85;
+  --foreground: 241 245 249;
+  --muted: 148 163 184;
+}
+
+body { @apply bg-surface text-foreground; }
+
+.btn-primary { @apply inline-flex items-center justify-center rounded-xl bg-brand-600 px-4 py-2 text-white font-medium shadow hover:bg-brand-500 transition; }
+.card { @apply rounded-2xl border shadow-card bg-card border-border; }
+.pill { @apply inline-flex items-center rounded-full border border-border px-3 py-1 text-xs font-medium; }
+.section-title { @apply text-2xl font-bold; }
+.section-subtle { @apply text-[52px] font-extrabold tracking-tight opacity-5 select-none absolute left-0 -top-8; }
