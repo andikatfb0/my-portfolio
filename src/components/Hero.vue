@@ -51,7 +51,8 @@
         <div class="relative w-full aspect-[4/5] max-w-sm ml-auto rounded-3xl grid place-items-center">
           <img src="/andika.png"
             alt="Andika Kamiswara"
-            class="w-[360px] md:w-[460px] object-contain drop-shadow-[0_0_30px_rgba(50,70,150,0.35)] select-none pointer-events-none" />
+            class="w-[360px] md:w-[460px] object-contain drop-shadow-[0_0_30px_rgba(50,70,150,0.35)] select-none pointer-events-none"
+            loading="lazy"/>
         </div>
       </div>
     </div>

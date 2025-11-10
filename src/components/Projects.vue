@@ -5,14 +5,14 @@ const projects = [
     tags:['Laravel','Spring Boot', 'AWS', 'EKS', 'Vue','Tailwind', 'MySQL', 'Redis'],
     desc:'Edu Tech from Netherlands',
     link:'https://xdemia.com/',
-    src: '/xdemia.png'
+    src: '/xdemia.webp'
   },
   {
     title:'SIM - AMAKANIE',
     tags:['YII2','MySQL','WSO2'],
     desc:'Govermental project',
     link:'#',
-    src: '/sim-bkd.png'
+    src: '/sim-bkd.webp'
   },
   {
     title:'NPK-S Billing',
@@ -38,6 +38,7 @@ const projects = [
             :alt="p.title"
             class="h-auto w-auto transition-transform duration-300 group-hover:scale-105"
             referrerpolicy="no-referrer"
+            loading="lazy"
           />
           </div>
           <h3 class="font-semibold">{{ p.title }}</h3>
