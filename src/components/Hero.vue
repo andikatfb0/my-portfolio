@@ -1,18 +1,64 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { ref, onMounted, onUnmounted } from 'vue'
+
+// teks nama dipisah biar bisa beda warna
+const fullFirst = 'Andika'
+const fullLast = ' Kamiswara'
+
+const first = ref('')
+const last = ref('')
+const isDone = ref(false)
+
+onMounted(() => {
+  const total = fullFirst.length + fullLast.length
+  let i = 0
+  const speed = 100 // ms per huruf (silakan ganti kalau mau lebih cepat / lambat)
+
+  const interval = setInterval(() => {
+    if (i < total) {
+      if (i < fullFirst.length) {
+        // lagi ngetik "Andika"
+        first.value = fullFirst.slice(0, i + 1)
+      } else {
+        // lanjut ngetik " Kamiswara"
+        const j = i - fullFirst.length
+        last.value = fullLast.slice(0, j + 1)
+      }
+      i++
+    } else {
+      isDone.value = true
+      clearInterval(interval)
+    }
+  }, speed)
+
+  onUnmounted(() => clearInterval(interval))
+})
+</script>
 
 <template>
   <section id="hero" class="relative overflow-hidden rounded-3xl bg-card">
-    <div class="max-w-6xl mx-auto px-6 md:px-12 py-12 md:py-16 grid md:grid-cols-2 gap-10 items-center">
+    <div class="max-w-6xl mx-auto md:px-2 py-4 grid md:grid-cols-2 gap-10 items-center">
       <!-- Left: texts -->
-      <div class="space-y-6">
+      <div class="space-y-1">
         <p class="text-sm text-muted">Hello,</p>
 
         <!-- Title -->
         <h1 class="leading-tight font-black">
           <span class="block text-2xl md:text-3xl">I am</span>
           <span class="flex gap-1 block text-4xl md:text-6xl">
-            <span class="text-foreground">Andika</span>
-            <span class="text-brand-600"> Kamiswara</span>
+            <!-- <span class="text-foreground">Andika</span>
+            <span class="text-brand-600"> Kamiswara</span> -->
+            <span class="text-foreground">
+            {{ first }}
+          </span>
+          <span class="text-brand-600">
+            {{ last }}
+          </span>
+          <!-- cursor kecil kedip selama proses ngetik -->
+          <span
+            v-if="!isDone"
+            class="ml-1 w-[2px] h-8 md:h-9 bg-brand-600 animate-pulse"
+          />
           </span>
         </h1>
 
