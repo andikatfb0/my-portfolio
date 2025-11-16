@@ -4,22 +4,22 @@ import { ref, computed } from 'vue'
 type Slide = { title: string; subtitle: string; icon: string; desc: string }
 const slides: Slide[] = [
   {
-    title: 'Backend & Integrasi',
-    subtitle: 'Laravel / Spring Boot',
+    title: 'Backend & Integration',
+    subtitle: 'PHP Laravel / Spring Boot',
     icon: '📦',
-    desc: 'ERP & sistem BUMN: PHP/MySQL & Oracle, integrasi via WSO2, sampai migrasi ke microservices.'
+    desc: 'ERP & State-Owned Enterprise Systems: PHP/MySQL & Oracle development, WSO2 integration, and migration to microservices architecture.'
   },
   {
     title: 'Frontend SPA',
     subtitle: 'Vue 2/3 + Tailwind',
     icon: '🎛️',
-    desc: 'Bangun dashboard & learning app. UI reaktif, rapi, responsif, dan enak dipakai.'
+    desc: 'Build dashboards & learning apps with clean, reactive, and fully responsive UI for a smooth user experience.'
   },
   {
     title: 'DevOps & Cloud',
     subtitle: 'Jenkins + AWS',
     icon: '☁️',
-    desc: 'CI/CD, deploy ke S3/RDS/EKS, domain & SSL, logging, dan efisiensi biaya.'
+    desc: 'CI/CD, deployments to S3/RDS/EKS, domain & SSL setup, logging, and cost optimization.'
   }
 ]
 ;

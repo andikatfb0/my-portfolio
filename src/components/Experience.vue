@@ -5,16 +5,16 @@ const jobs = [
     role: 'Full-Stack Developer',
     period: 'Jul 2020 — Present',
     points: [
-      'Xdemia: REST API (Laravel) + SPA, redesign Sidebar (Tailwind), D3 Xmap',
-      'Migrasi microservices: Java Spring Boot, DTO/Entity/Repository',
+      'Xdemia: REST API (Laravel) + SPA VueJS + Tailwind',
+      'Migration microservices: Java Spring Boot, DTO/Entity/Repository',
       'CI/CD Jenkins, AWS (S3, RDS, EKS), cost optimization'
     ]
   },
   { company:'PT EDI Indonesia', role:'Programmer → System Integrator', period:'May 2018 — Jul 2020',
-    points:['Full-stack apps, DBA, dan integrasi sistem untuk klien']
+    points:['Full-stack apps, DBA, and system integration for clients']
   },
   { company:'PT Indoferro', role:'Programmer', period:'Aug 2017 — Feb 2018',
-    points:['Internal ERP (PHP, JS, jQuery) untuk employee/finance/product']
+    points:['Internal ERP (PHP, JS, jQuery) MySQL for employee/finance/product']
   }
 ]
 </script>

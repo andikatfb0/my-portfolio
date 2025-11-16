@@ -2,27 +2,103 @@
 type Tech = { name: string; href: string; src: string }
 
 const techs: Tech[] = [
+  // ================== DATABASE ==================
+  {
+    name: 'Oracle',
+    href: 'https://www.oracle.com/database/',
+    src: 'https://www.vectorlogo.zone/logos/oracle/oracle-icon.svg'
+  },
+  {
+    name: 'MySQL',
+    href: 'https://www.mysql.com/',
+    src: 'https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg'
+  },
+  {
+    name: 'Redis',
+    href: 'https://redis.io/',
+    src: 'https://www.vectorlogo.zone/logos/redis/redis-icon.svg'
+  },
 
+  // ================== BACKEND ==================
+  {
+    name: 'Java',
+    href: 'https://www.java.com/',
+    src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg'
+  },
+  {
+    name: 'Spring Boot',
+    href: 'https://spring.io/projects/spring-boot',
+    src: 'https://www.vectorlogo.zone/logos/springio/springio-icon.svg'
+  },
+  {
+    name: 'PHP',
+    href: 'https://www.php.net/',
+    src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg'
+  },
+  {
+    name: 'Laravel',
+    href: 'https://laravel.com/',
+    src: 'https://www.vectorlogo.zone/logos/laravel/laravel-icon.svg'
+  },
+  {
+    name: 'CodeIgniter',
+    href: 'https://codeigniter.com/',
+    src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain-wordmark.svg'
+  },
+  {
+    name: 'Yii2',
+    href: 'https://www.yiiframework.com/',
+    src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yii/yii-original.svg'
+  },
+  {
+    name: 'WSO2',
+    href: 'https://wso2.com/',
+    src: 'https://raw.githubusercontent.com/cncf/landscape/master/hosted_logos/wso2.svg'
+  },
 
-  { name: 'Oracle', href: 'https://www.oracle.com/database/', src: 'https://www.vectorlogo.zone/logos/oracle/oracle-icon.svg' },
-  { name: 'MySQL', href: 'https://www.mysql.com/', src: 'https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg' },
-  { name: 'Redis', href: 'https://redis.io/', src: 'https://www.vectorlogo.zone/logos/redis/redis-icon.svg' },
+  // ================== FRONTEND ==================
+  {
+    name: 'Vue.js',
+    href: 'https://vuejs.org/',
+    src: 'https://www.vectorlogo.zone/logos/vuejs/vuejs-icon.svg'
+  },
+  {
+    name: 'Tailwind CSS',
+    href: 'https://tailwindcss.com/',
+    src: 'https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg'
+  },
+  {
+    name: 'Bootstrap',
+    href: 'https://getbootstrap.com/',
+    src: 'https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg'
+  },
 
-  { name: 'Java', href: 'https://www.java.com/', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg' },
-  { name: 'Spring Boot',  href: 'https://spring.io/projects/spring-boot', src: 'https://www.vectorlogo.zone/logos/springio/springio-icon.svg' },
-
-  { name: 'PHP', href: 'https://www.php.net/', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg' },
-  { name: 'Laravel', href: 'https://laravel.com/', src: 'https://www.vectorlogo.zone/logos/laravel/laravel-icon.svg' },
-  { name: 'CodeIgniter', href: 'https://codeigniter.com/', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain-wordmark.svg' },
-  { name: 'Yii2', href: 'https://www.yiiframework.com/',  src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yii/yii-original.svg' },
-  { name: 'Tailwind CSS', href: 'https://tailwindcss.com/', src: 'https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg' },
-  { name: 'Bootstrap', href: 'https://getbootstrap.com/', src: 'https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg' },
-  { name: 'Vue.js', href: 'https://vuejs.org/', src: 'https://www.vectorlogo.zone/logos/vuejs/vuejs-icon.svg' },
-
-  { name: 'AWS', href: 'https://aws.amazon.com/', src: 'https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg' },
-  { name: 'Docker', href: 'https://www.docker.com/', src: 'https://www.vectorlogo.zone/logos/docker/docker-icon.svg' },
-  { name: 'Kubernetes', href: 'https://kubernetes.io/', src: 'https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg' },
-  { name:'WSO2',  href:'https://wso2.com/', src:'https://raw.githubusercontent.com/cncf/landscape/master/hosted_logos/wso2.svg' },
+  // ================== CLOUD / DEVOPS ==================
+  {
+    name: 'AWS',
+    href: 'https://aws.amazon.com/',
+    src: 'https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg'
+  },
+  {
+    name: 'Cloudflare',
+    href: 'https://www.cloudflare.com/',
+    src: 'https://www.vectorlogo.zone/logos/cloudflare/cloudflare-icon.svg'
+  },
+  {
+    name: 'Docker',
+    href: 'https://www.docker.com/',
+    src: 'https://www.vectorlogo.zone/logos/docker/docker-icon.svg'
+  },
+  {
+    name: 'Kubernetes',
+    href: 'https://kubernetes.io/',
+    src: 'https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg'
+  },
+  {
+    name: 'Git',
+    href: 'https://git-scm.com/',
+    src: 'https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg'
+  }
 ];
 </script>
 
@@ -31,7 +107,7 @@ const techs: Tech[] = [
     <div class="text-center">
       <!-- <p class="text-sm text-muted">Experience in</p> -->
       <h2 class="text-2xl md:text-3xl font-bold mt-1">
-        Trusted Technologies that Power Your Innovation
+        Reliable Technology Behind Your Innovation
       </h2>
     </div>
     <!-- dibungkus card biar selaras section lain -->

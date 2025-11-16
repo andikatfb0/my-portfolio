@@ -8,8 +8,8 @@ const email = "andikatfb0@gmail.com"
 
     <div class="card p-8 space-y-5 text-center">
       <p class="text-muted max-w-xl mx-auto">
-        Ada pertanyaan, ingin diskusi project, atau butuh bantuan teknis?
-        Silakan hubungi gue. Dengan senang hati gue bantu jelasin dan brainstorm bareng.
+        Got questions, want to discuss a project, or need technical help?
+        Feel free to reach out — I’m always happy to explain things and brainstorm together.
       </p>
 
       <a
@@ -20,7 +20,7 @@ const email = "andikatfb0@gmail.com"
       </a>
 
       <div class="pt-4 text-sm text-muted">
-        atau kunjungi:
+        or visit:
       </div>
 
       <div class="flex justify-center gap-4 text-sm">

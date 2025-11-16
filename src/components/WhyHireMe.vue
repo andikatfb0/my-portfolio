@@ -3,24 +3,25 @@ type Item = { title: string; desc: string; icon: 'camera'|'chat'|'thumb'|'badge'
 const items: Item[] = [
   {
     title: 'Workaholic',
-    desc: 'Terbiasa handle banyak module end-to-end: API Laravel ↔ UI Vue/Tailwind, migrasi ke Spring Boot, dan delivery via Jenkins.',
+    desc: 'Used to handling multiple modules end-to-end: Laravel APIs ↔ Vue/Tailwind UI, migration to Spring Boot, and delivery through Jenkins.',
     icon: 'camera'
   },
   {
     title: 'Communicative',
-    desc: 'Biasa translate kebutuhan bisnis ke scope teknis, dokumentasi rapi, dan align dengan stakeholder lokal/remote.',
+    desc: 'Able to translate business needs into clear technical scope, write structured documentation, and align with local/remote stakeholders.',
     icon: 'chat'
   },
   {
     title: 'Cooperative',
-    desc: 'Pengalaman lintas peran (programmer → DBA → system integrator). Enak kolab bareng QA, UI/UX, & DevOps.',
+    desc: 'Experience across multiple roles (programmer → DBA → system integrator). Easy to collaborate with QA, UI/UX, and DevOps teams.',
     icon: 'thumb'
   },
   {
     title: 'Perfectionist',
-    desc: 'Nekan clean code, code review, dan kualitas: akses cepat, layout rapi, serta fokus maintainability & performance.',
+    desc: 'Focus on clean code, code reviews, and quality: fast access, clean layouts, and strong maintainability & performance.',
     icon: 'badge'
   }
+
 ]
 </script>
 

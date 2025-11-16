@@ -26,11 +26,11 @@
 
         <!-- Summary (singkat, diambil dari CV lo) -->
         <p class="text-sm md:text-base text-foreground/80 max-w-xl">
-          Fullstack developer dengan pengalaman dari ERP dan sistem BUMN sejak 2017. 
-          Pernah bangun web apps berbasis PHP/MySQL & Oracle, integrasi layanan via WSO2, 
-          hingga migrasi platform ke arsitektur microservices dengan Java Spring Boot, Laravel, 
-          Vue/Tailwind, AWS (S3, RDS, EKS), dan CI/CD Jenkins. Fokus ke clean code, performa, 
-          dan pengalaman pengguna yang rapi.
+          Fullstack developer with 5+ years of experience in ERP and State-Owned Enterprise systems.
+          I’ve built web applications using PHP/MySQL & Oracle, integrated services via WSO2, 
+          and migrated platforms to a microservices architecture using Java Spring Boot, Laravel, 
+          Vue/Tailwind, AWS (S3, RDS, EKS), and Jenkins CI/CD.
+          Focused on clean code, performance, and delivering a polished user experience.
         </p>
 
         <!-- Actions -->

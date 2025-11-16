@@ -10,7 +10,7 @@ const { mode, apply } = useTheme()
         <span class="text-brand-600">K</span>
       </a>
       <ul class="hidden md:flex gap-6 text-sm text-foreground">
-        <li><a href="#hero" class="hover:text-brand-600">About</a></li>
+        <li><a href="#hero" class="hover:text-brand-600">Me</a></li>
         <li><a href="#why" class="hover:text-brand-600">Why</a></li>
         <!-- <li><a href="#skills" class="hover:text-brand-600">Skills</a></li> -->
         <li><a href="#projects" class="hover:text-brand-600">Projects</a></li>
