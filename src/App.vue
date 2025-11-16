@@ -14,9 +14,9 @@ import Footer from './components/Footer.vue'
   <Navbar />
   <main class="max-w-6xl mx-auto p-6 md:p-10 space-y-16">
     <Hero />
+    <WhyHireMe />
     <About />
     <Projects />
-    <WhyHireMe />
     <Experience />
     <Skills />
     <Contact />

@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <section class="relative overflow-hidden rounded-3xl bg-card">
+  <section id="hero" class="relative overflow-hidden rounded-3xl bg-card">
     <div class="max-w-6xl mx-auto px-6 md:px-12 py-12 md:py-16 grid md:grid-cols-2 gap-10 items-center">
       <!-- Left: texts -->
       <div class="space-y-6">
