@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
+import { useScroll } from '../composables/useScroll'
+
+const { scrollToId } = useScroll()
 
 // teks nama dipisah biar bisa beda warna
 const fullFirst = 'Andika'
@@ -81,12 +84,11 @@ onMounted(() => {
 
         <!-- Actions -->
         <div class="flex flex-wrap items-center gap-3 pt-2">
-          <a
-            href="#projects"
+          <button 
             class="inline-flex items-center px-5 py-2.5 rounded-xl border border-border font-medium hover:bg-surface"
-          >
+            @click="scrollToId('projects')">
             More
-          </a>
+          </button>
         </div>
       </div>
 
