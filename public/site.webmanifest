@@ -1,0 +1,15 @@
+{
+  "name": "Andika Kamiswara Portfolio",
+  "short_name": "Andika Portfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/andika.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
