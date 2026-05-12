@@ -2,23 +2,23 @@
 type Item = { title: string; desc: string; icon: 'camera'|'chat'|'thumb'|'badge' }
 const items: Item[] = [
   {
-    title: 'Workaholic',
-    desc: 'Used to handling multiple modules end-to-end: Laravel APIs ↔ Vue/Tailwind UI, migration to Spring Boot, and delivery through Jenkins.',
+    title: 'End-to-End Ownership',
+    desc: 'Comfortable owning delivery across API design, frontend implementation, database work, deployment flow, and post-release fixes.',
     icon: 'camera'
   },
   {
-    title: 'Communicative',
-    desc: 'Able to translate business needs into clear technical scope, write structured documentation, and align with local/remote stakeholders.',
+    title: 'Clear Communication',
+    desc: 'Able to translate business needs into technical scope, document decisions clearly, and align with local or remote stakeholders.',
     icon: 'chat'
   },
   {
-    title: 'Cooperative',
-    desc: 'Experience across multiple roles (programmer → DBA → system integrator). Easy to collaborate with QA, UI/UX, and DevOps teams.',
+    title: 'Cross-Functional Delivery',
+    desc: 'Experience across programmer, DBA, and system integrator responsibilities makes collaboration smoother with QA, UI/UX, and DevOps.',
     icon: 'thumb'
   },
   {
-    title: 'Perfectionist',
-    desc: 'Focus on clean code, code reviews, and quality: fast access, clean layouts, and strong maintainability & performance.',
+    title: 'Quality and Maintainability',
+    desc: 'Focused on code clarity, performance, and maintainable implementation so products stay stable after handoff and iteration.',
     icon: 'badge'
   }
 
@@ -29,6 +29,7 @@ const items: Item[] = [
   <section id="why" class="space-y-6">
     <div class="relative">
     <div class="text-center">
+      <p class="text-sm text-muted">Why teams trust me</p>
       <h2 class="text-2xl md:text-3xl font-bold">Why Hire Me</h2>
     </div>
       <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

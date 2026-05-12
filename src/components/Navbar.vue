@@ -21,7 +21,7 @@
         <span class="text-brand-600">K</span>
       </button>
       <ul class="hidden md:flex gap-6 text-sm text-foreground">
-        <li><button class="hover:text-brand-600" @click="handleNav('hero')">About</button></li>
+        <li><button class="hover:text-brand-600" @click="handleNav('hero')">Home</button></li>
         <li><button class="hover:text-brand-600" @click="handleNav('why')">Why</button></li>
         <li><button class="hover:text-brand-600" @click="handleNav('projects')">Projects</button></li>
         <li><button class="hover:text-brand-600" @click="handleNav('experience')">Experience</button></li>

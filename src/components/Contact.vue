@@ -4,19 +4,22 @@ const email = "andikatfb0@gmail.com"
 
 <template>
   <section id="contact" class="space-y-6">
-    <h2 class="text-2xl font-bold">Get in Touch</h2>
+    <div class="text-center">
+      <p class="text-sm text-muted">Open to collaboration</p>
+      <h2 class="text-2xl font-bold">Get in Touch</h2>
+    </div>
 
     <div class="card p-8 space-y-5 text-center">
       <p class="text-muted max-w-xl mx-auto">
-        Got questions, want to discuss a project, or need technical help?
-        Feel free to reach out — I’m always happy to explain things and brainstorm together.
+        If you are hiring for a full-stack role, need support for a product build, or want someone who
+        can bridge backend, frontend, and deployment work, feel free to reach out.
       </p>
 
       <a
         class="btn-primary inline-flex items-center justify-center gap-2 mx-auto"
         :href="`mailto:${email}`"
       >
-        ✉️ Send me an email
+        ✉️ Email me
       </a>
 
       <div class="pt-4 text-sm text-muted">
